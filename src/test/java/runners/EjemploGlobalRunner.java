@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/EjemploGlobal.feature",
         glue = "stepdefinitions",
-        tags = "",
+        tags = "@EscenarioSinEjemplos",
         snippets = SnippetType.CAMELCASE
 )
 public class EjemploGlobalRunner {
